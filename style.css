@@ -24,8 +24,8 @@ main {
   justify-content: center;
   align-items: center;
   background: url(./images/pattern-curve.svg) no-repeat;
-  background-size: 75%;
-  background-position: left 0 bottom 0;
+  background-size: 70%;
+  background-position: left bottom;
 }
 
 .container {
@@ -123,4 +123,8 @@ main {
   color: var(--grayish-blue);
   font-size: 0.9rem;
   font-weight: 400;
+}
+
+.hidden {
+  display: none;
 }
