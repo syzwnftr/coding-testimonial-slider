@@ -29,7 +29,7 @@ main {
 }
 
 .container {
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
   max-width: 90%;
 }
 
@@ -132,5 +132,60 @@ main {
 @media (min-width: 23.5rem) {
   .container {
     max-width: 21.093rem;
+  }
+}
+
+@media (min-width: 53.75rem) {
+  .container {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .card-img {
+    flex-basis: 50%;
+    order: 1;
+  }
+
+  .review-div {
+    flex-basis: 50%;
+  }
+
+  .review {
+    text-align: start;
+  }
+
+  .name-role {
+    padding: 0 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 0.5rem;
+  }
+}
+
+@media (min-width: 68.75rem) {
+  .card-img {
+    outline: 1px solid red;
+    flex-basis: 100%;
+    margin-left: -5rem;
+    background-size: cover;
+  }
+
+  .img-div {
+    outline: 1px solid black;
+  }
+
+  .review-div {
+    outline: 1px solid red;
+    flex-basis: 100%;
+    z-index: 1;
+    background-position: top 0 left 20%;
+    background-size: 55px;
+  }
+
+  .review {
+    font-size: 1.9rem;
+    padding: 0 0 0 1rem;
   }
 }
