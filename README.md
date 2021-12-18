@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://syzwnftr.github.io/coding-testimonial-slider/
+- Live Site URL: https://syzwnftr.github.io/coding-testimonial-slider/
 
 ## My process
 
