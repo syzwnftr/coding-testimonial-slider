@@ -128,3 +128,9 @@ main {
 .hidden {
   display: none;
 }
+
+@media (min-width: 23.5rem) {
+  .container {
+    max-width: 21.093rem;
+  }
+}
