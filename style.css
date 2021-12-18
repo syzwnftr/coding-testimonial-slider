@@ -166,6 +166,10 @@ main {
 }
 
 @media (min-width: 68.75rem) {
+  main {
+    background-size: 500px;
+  }
+
   .card-img {
     outline: 1px solid red;
     flex-basis: 100%;
@@ -190,7 +194,13 @@ main {
   }
 
   .review {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 0 0 0 1rem;
+  }
+}
+
+@media (min-width: 85.625rem) {
+  .container {
+    max-width: 68.5rem;
   }
 }
