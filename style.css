@@ -156,7 +156,8 @@ main {
   }
 
   .name-role {
-    padding: 0 1rem;
+    /* outline: 1px solid black; */
+    padding: 1rem 1rem;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -176,6 +177,10 @@ main {
     outline: 1px solid black;
   }
 
+  .btn-div {
+    left: 22%;
+  }
+
   .review-div {
     outline: 1px solid red;
     flex-basis: 100%;
@@ -185,7 +190,7 @@ main {
   }
 
   .review {
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding: 0 0 0 1rem;
   }
 }
