@@ -29,7 +29,6 @@ main {
 }
 
 .container {
-  outline: 1px solid black;
   max-width: 90%;
 }
 
@@ -81,7 +80,7 @@ main {
 }
 
 .icon:hover {
-  background-color: rgb(194, 194, 194);
+  background-color: #eed3c8;
 }
 
 .icon img {
@@ -135,7 +134,7 @@ main {
   }
 }
 
-@media (min-width: 53.75rem) {
+@media (min-width: 42.875rem) {
   .container {
     max-width: 80%;
     display: flex;
@@ -143,25 +142,18 @@ main {
   }
 
   .card-img {
-    flex-basis: 50%;
+    /* outline: 1px solid black; */
+    flex-basis: 100%;
     order: 1;
   }
 
   .review-div {
-    flex-basis: 50%;
+    /* outline: 1px solid black; */
+    flex-basis: 100%;
   }
 
   .review {
     text-align: start;
-  }
-
-  .name-role {
-    /* outline: 1px solid black; */
-    padding: 1rem 1rem;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0 0.5rem;
   }
 }
 
@@ -171,14 +163,9 @@ main {
   }
 
   .card-img {
-    outline: 1px solid red;
     flex-basis: 100%;
-    margin-left: -5rem;
+    margin-left: -10rem;
     background-size: cover;
-  }
-
-  .img-div {
-    outline: 1px solid black;
   }
 
   .btn-div {
@@ -186,16 +173,24 @@ main {
   }
 
   .review-div {
-    outline: 1px solid red;
     flex-basis: 100%;
     z-index: 1;
     background-position: top 0 left 20%;
     background-size: 55px;
+    height: 300px;
   }
 
   .review {
     font-size: 1.8rem;
     padding: 0 0 0 1rem;
+  }
+
+  .name-role {
+    padding: 1rem 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 0.5rem;
   }
 }
 
